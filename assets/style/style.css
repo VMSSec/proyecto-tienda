@@ -1,5 +1,6 @@
 body {
   font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la fuente que desees usar */
+    margin: 0px;
 }
 
 .encabezado {
@@ -11,7 +12,6 @@ body {
   justify-content: center;
   text-align: center;
   position: relative;
-  margin: 0px;
 }
 
 h1 {
