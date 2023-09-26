@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la fuente que desees usar */
+}
+
+.encabezado {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  color: rgb(91, 91, 241);
+  font-size: 2em;
+  padding: 5px;
+  width: 50%;
+  margin: 0;
+  text-align: center;
+  border: 2px solid black; /* Borde alrededor del h1 */
+  -webkit-text-stroke: 2px black; /* Agrega un borde de 2px alrededor del texto */
+}
+
+div {
+  margin: 0px;
+}
+p {
+  font-size: 20px;
+ 
+}
+.producto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prod_img {
+  width: 40%;
+  text-align: right;
+  padding: 0px;
+  margin: 5px;
+}
+.prod_txt {
+  width: 40%;
+  padding: 5px;
+  text-align: justify;
+}
+.prod_desc {
+  font-size: 15px;
+}
+.pie {
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+.linea-separadora {
+  width: 100%;
+  margin: 0 auto 10px auto;
+  border: 1px solid #ccc;
+}
